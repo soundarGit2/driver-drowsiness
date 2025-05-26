@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+ body {
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+     background: linear-gradient(to right, #e0f7fa, #ffffff);
+     color: #333;
+ }
+
+ header {
+     background-color: #003366;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+ }
+header h1 {
+     font-size: 1.8em;
+     margin: 0;
+ }
+
+ .container {
+     max-width: 600px;
+     margin: 40px auto;
+     background: #ffffff;
+     padding: 40px;
+     border-radius: 16px;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
+
+ .drop-zone {
+     border: 3px dashed #0066cc;
+     padding: 50px 20px;
+     border-radius: 12px;
+     background-color: #f9f9f9;
+     transition: 0.3s ease;
+     cursor: pointer;
+     margin-bottom: 20px;
+ }
+
+ .drop-zone:hover,
+ .drop-zone.dragover {
+     background-color: #e6f0ff;
+     border-color: #004c99;
+ }
+
+ .drop-zone p {
+     margin: 0;
+     font-size: 1.1em;
+ }
+
+ .drop-zone span {
+     font-weight: 600;
+     color: #0066cc;
+     text-decoration: underline;
+ }
+
+ input[type="file"] {
+     display: none;
+ }
+
+ button {
+     padding: 12px 30px;
+     font-size: 1em;
+     background-color: #0066cc;
+     color: white;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: background 0.3s;
+ }
+
+ button:hover {
+     background-color: #004c99;
+ }
+
+ #loader {
+     margin-top: 30px;
+     font-size: 1.2em;
+     color: #003366;
+ }
+
+ .spinner {
+     margin: 0 auto 15px auto;
+     width: 50px;
+     height: 50px;
+     border: 6px solid #cce0ff;
+     border-top: 6px solid #0066cc;
+     border-radius: 50%;
+     animation: spin 1s linear infinite;
+ }
+
+ @keyframes spin {
+     to {
+         transform: rotate(360deg);
+     }
+ }
+
+
+ footer {
+     text-align: center;
+     margin-top: 100px;
+     background: #003366;
+     padding: 20px 0;
+     color: white;
+     font-size: 0.95em;
+ }
