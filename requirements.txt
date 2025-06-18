@@ -1,7 +1,7 @@
 flask
 gunicorn
 opencv-python
-mediapipe
+mediapipe @ https://github.com/google/mediapipe/releases/download/v0.10.7/mediapipe-0.10.7-cp310-cp310-manylinux2014_x86_64.whl
 numpy
 torch
 torchvision
