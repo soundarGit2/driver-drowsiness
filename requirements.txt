@@ -2,7 +2,7 @@ flask
 gunicorn
 opencv-python
 numpy
-torch
-torchvision
 Pillow
-PyTorch
+torch==2.0.1
+torchvision
+tensorflow==2.13.0
