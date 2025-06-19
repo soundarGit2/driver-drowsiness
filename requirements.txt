@@ -5,4 +5,4 @@ numpy
 torch
 torchvision
 Pillow
-tensorflow==2.13.0
+Pytorch
